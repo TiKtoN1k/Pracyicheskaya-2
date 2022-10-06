@@ -5,7 +5,7 @@ do
 
     Console.WriteLine("Выберите номер игры: ");
 
-    Console.WriteLine("1 - Угадай число \n2 - Таблица умножения\n3 - Вывод делителей числа\n4 - Выйти из программы");
+    Console.WriteLine("1 - Угадай число \n2 - Таблица умножения \n3 - Вывод делителей числа \n4 - Выйти из программы");
     gameNumber = Convert.ToInt32(Console.ReadLine());
     switch (gameNumber)
     {
